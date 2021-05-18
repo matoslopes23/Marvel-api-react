@@ -1,0 +1,114 @@
+@media (min-width: 1024px) {
+  .container {
+    background: rgb(20, 20, 20);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    .card {
+      padding: 4rem 2rem;
+
+      width: 80%;
+
+      display: flex;
+      justify-content: center;
+
+      img {
+        height: 468px;
+        border-radius: 20px;
+
+        margin-right: 4rem;
+      }
+
+      h2 {
+        color: var(--white);
+        font-size: 4rem;
+        margin-bottom: 2rem;
+      }
+
+      p {
+        color: var(--gray-50);
+        font-size: 1.5rem;
+        margin-bottom: 4rem;
+      }
+
+      a {
+        background: var(--red);
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        color: var(--white);
+        text-decoration: none;
+        margin-top: 4rem;
+
+        transition: all 0.2s;
+
+        &:hover {
+          background: var(--white);
+          color: var(--red);
+          border: 2px solid var(--red);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    background: rgb(20, 20, 20);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    .card {
+      padding: 4rem 1rem;
+
+      width: 90%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 20px;
+      }
+
+      h2 {
+        color: var(--white);
+        font-size: 3rem;
+        margin: 4rem 0;
+      }
+
+      p {
+        color: var(--gray-50);
+        font-size: 1.5rem;
+        margin-bottom: 4rem;
+      }
+
+      a {
+        background: var(--red);
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        color: var(--white);
+        text-decoration: none;
+        margin-top: 4rem;
+
+        transition: all 0.2s;
+
+        &:hover {
+          background: var(--white);
+          color: var(--red);
+          border: 2px solid var(--red);
+        }
+      }
+    }
+  }
+}
