@@ -16,7 +16,7 @@ Este sistema lista os personagens por ordem alfabética e permite que o usuário
 * Node.JS
 * Typescript
 * React
-* Sass
+* Scss
 * React-router-dom
 * Axio
 * Md5
