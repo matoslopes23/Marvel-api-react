@@ -6,7 +6,7 @@ import "./styles/global.scss";
 const App: React.FC = () => {
   return (
     <>
-      <Routes></Routes>;
+      <Routes></Routes>
     </>
   );
 };
